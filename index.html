@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="grid-cont">
+      <h1>Andrey</h1>
+      <h1>Shatkovsky</h1>
+      <p>C#, JS, Python, Kotlin, Bash</p>
+      <p>English, Russian, toki pona</p>
+      <p>Active Directory, Mikrotik, WPF, NodeJS</p>
+      <p>osu!taiko, Clone Hero, Minecraft, Trackmania</p>
+    </div>
+    <p class="cent">
+      <a href="mailto:mail@andysha.me">Email</a>,
+      <a href="https://t.me/andysha">Telegram</a>,
+      <a href="https://discord.com/users/142832324214521857/">Discord: andysha#2148</a>,
+      <a href="https://steamcommunity.com/id/and_sha/">Steam</a>,
+      <a href="https://osu.ppy.sh/users/6865426">osu!</a>
+    </p>
+    <p class="cent mystery">Those that seek shall find about Web 1.0</p>
+  </body>
+  <head>
+    <title>andysha</title>
+	<style>
+      body {
+        background-color: #eee;
+        color: #111;
+      }
+      a:visited {
+        color: #818;
+      }
+      .mystery {
+        color: #ccc;
+      }
+      @media(prefers-color-scheme: dark) {
+        body {
+          background-color: #111;
+          color: #eee;
+        }
+        .mystery {
+          color: #333;
+        }
+      }
+      @media not (pointer: none) { 
+        h1, p {
+          margin: 0px !important;
+        }
+        .grid-cont {
+          margin: 35vh 20px;
+          display: grid;
+          gap: 10px 20px;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .grid-cont *:nth-child(odd) {
+          text-align: right;
+        }
+        .grid-cont *:nth-child(even) {
+          text-align: left;
+        }
+      }
+      .grid-cont {
+        margin: 35vh 20px;
+      }
+      .grid-cont, .cent {
+        text-align: center;
+      }
+      * {
+        margin: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      h1, p {
+        margin: 4px;
+      }
+    </style>
+  </head>
+</html>
